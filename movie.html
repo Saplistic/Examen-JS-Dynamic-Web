@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Movie App</title>
+</head>
+
+<body onload="displayMovie()">
+  <header>
+    <form id="form">
+      <input type="text" id="search" class="search" placeholder="search">
+    </form>
+  </header>
+  <main>
+    <div class="moviePage">
+      <img id="movieCover" src="image/Myimage.jpg" alt="">
+    </div>
+    <div class="moviePageInfo">
+      <h3 id="moviePageTitle">No title loaded</h3>
+      <div id="star-rating">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+        <img src="image/starEmpty.png">
+      </div>
+      <span id="rating" class="red">No rating loaded</span>
+    </div>
+    <div class="moviePageOverview" id="moviePageOverview">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate placeat pariatur, alias vel assumenda
+      expedita consectetur reiciendis totam illum molestias.
+    </div>
+  </main>
+  <script src="js/movie.js"></script>
+</body>
+
+</html>
